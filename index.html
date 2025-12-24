@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>718 Digital - Agence Digitale | Abidjan</title>
+    <meta name="description" content="Agence digitale à Abidjan, développement web, design, marketing digital. Créativité sans limites.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <img src="assets/logo.png" alt="718 Digital" class="logo-img">
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Accueil</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-contact">
+                    <a href="tel:2250566277354" class="nav-phone">
+                        <i class="fas fa-phone"></i> 05 66 27 73 54
+                    </a>
+                </div>
+                
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <h1 class="hero-title">La Créativité <span class="highlight">Sans Limites</span></h1>
+                    <p class="hero-description">
+                        Agence digitale à Abidjan spécialisée dans les solutions web innovantes 
+                        pour propulser votre entreprise vers le succès.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> Nos Services
+                        </a>
+                        <a href="https://wa.me/225002250576852723" class="btn btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-text">Projets</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-text">Satisfaction</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-text">Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nos Services</h2>
+                    <p class="section-subtitle">Solutions digitales complètes pour votre réussite</p>
+                </div>
+                
+                <!-- Les cartes de services restent identiques à la version précédente -->
+                <!-- ... (copiez le contenu des services de la version précédente) ... -->
+            </div>
+        </section>
+
+        <!-- Calculateur -->
+        <section class="calculator section">
+            <div class="container">
+                <div class="calculator-container">
+                    <h2 class="calculator-title">Estimez votre projet</h2>
+                    <div class="calculator-form">
+                        <div class="form-group">
+                            <select id="calc-type" class="form-control">
+                                <option value="">Type de projet</option>
+                                <option value="vitrine">Site vitrine</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="app">Application</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="calc-complexity" class="form-control">
+                                <option value="simple">Simple</option>
+                                <option value="medium">Moyen</option>
+                                <option value="complex">Complexe</option>
+                            </select>
+                        </div>
+                        <button id="calc-btn" class="btn btn-primary">Calculer</button>
+                    </div>
+                    <div class="calculator-result" id="calc-result">
+                        <h3>Estimation : <span id="calc-price">-- FCFA</span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Contactez-nous</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Appels</h4>
+                                <a href="tel:2250566277354">05 66 27 73 54</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/225002250576852723">05 76 85 27 23</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:718digital1@gmail.com">718digital1@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <input type="text" placeholder="Votre nom" required>
+                        <input type="email" placeholder="Votre email" required>
+                        <input type="tel" placeholder="Téléphone" required>
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/logo.png" alt="718 Digital" class="footer-logo">
+                    <p>La Créativité Sans Limites</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#services">Développement Web</a>
+                    <a href="#services">Design UI/UX</a>
+                    <a href="#services">Marketing Digital</a>
+                    <a href="#services">Applications Mobiles</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> 05 66 27 73 54</p>
+                    <p><i class="fab fa-whatsapp"></i> 05 76 85 27 23</p>
+                    <p><i class="fas fa-envelope"></i> 718digital1@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 718 Digital. Tous droits réservés.</p>
+                <p>Hébergé sur GitHub Pages</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="serviceModal">
+        <!-- Contenu du modal -->
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
